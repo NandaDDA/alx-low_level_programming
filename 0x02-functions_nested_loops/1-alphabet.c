@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  *print_alphabet-Printsalphabets'a - z'   
- *Return: 0
+ *Return:0
  */
 void print_alphabet(void)
 {
