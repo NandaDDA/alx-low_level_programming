@@ -1,9 +1,9 @@
 #include"main.h"
 /**
  * Main-check code 
- * used _putchar to print _putchar
- * Main Prints putchar
- *  Return:Always 0
+ * used_putchar to print_putchar
+ * Main-Prints putchar
+ * Return:Always 0
  */
 int main(void)
 {
@@ -13,8 +13,8 @@ _putchar('u');
 _putchar('t');
 _putchar('c');
 _putchar('h');
-_putchar('a'); 
+_putchar('a');
 _putchar('r');
-_putchar('\n'); 
+_putchar('\n');
 return (0);
 }
