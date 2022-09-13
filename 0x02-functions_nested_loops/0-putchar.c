@@ -1,9 +1,7 @@
 #include"main.h"
 /**
- * Main-checkcode 
- * used_putchartoprint_putchar
- * Main-Prints_putchar
- * Return:Always0
+ *Main-checkcode
+ *Return:Always 0
  */
 int main(void)
 {
