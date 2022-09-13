@@ -1,12 +1,11 @@
 #include"main.h"
 /**
- *print_alphabetPrintsalphabets'a-z'   
- *Return:0
+ *print_alphabet-Printsalphabets'a-z'   
  */
 void print_alphabet(void)
 {
 char c;
-for(c = 'a'; c <= 'z'; c++)
+for (c = 'a'; c <= 'z'; c++)
 {
 _putchar(c);
 }
