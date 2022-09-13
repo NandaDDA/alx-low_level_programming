@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <main.h>
-/*
- * main- Check the code
+/**
+ * print_alphabet - Prints alphabets 'a - z' 
  *  
- * print_alphabet - Prints alphabets 'a - z'
+ *Return: 0
  */
 void print_alphabet(void)
 {
