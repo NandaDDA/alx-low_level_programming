@@ -1,6 +1,6 @@
 #include"main.h"
 /**
- *Main-checkcode
+ *Main-Print_putchar
  *Return:Always 0
  */
 int main(void)
