@@ -1,9 +1,9 @@
 #include"main.h"
 /**
- * Main-check code 
- * used_putchar to print_putchar
- * Main-Prints putchar
- * Return:Always 0
+ * Main-checkcode 
+ * used_putchartoprint_putchar
+ * Main-Prints_putchar
+ * Return:Always0
  */
 int main(void)
 {
