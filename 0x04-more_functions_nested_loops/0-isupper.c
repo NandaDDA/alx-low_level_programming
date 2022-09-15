@@ -2,7 +2,7 @@
 /*
  * _isupper-Checks for uppercase alphabets.
  * @c an integar parameter.
- * Returns 1 if successful else 0
+ * Return: 1 whether it is, 0 otherwise.
  */
 int _isupper(int c)
 {
