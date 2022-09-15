@@ -1,5 +1,5 @@
 #include "main.h"
-/*
+/**
  * _isupper-Checks for uppercase alphabets.
  * @c an integar parameter.
  * Return: 1 whether it is, 0 otherwise.
