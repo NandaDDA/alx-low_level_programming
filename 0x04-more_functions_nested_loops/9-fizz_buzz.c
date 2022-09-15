@@ -4,7 +4,7 @@
  * main - program that prints either number
  * or fizz or buzz or fizzBuzz
  */
-int main(void)
+int main(void);
 {
 int num = 1;
 while (num++ < 100)
@@ -35,4 +35,4 @@ printf("%d ", num);
 printf("\n");
 return (0);
 }
-
+}
