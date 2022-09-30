@@ -1,26 +1,34 @@
+#include <ctype.h>
 #include <stdio.h>
 #include <stdlib.h>
 /**
  * main - adds positive numbers
- * @argc: number of arguments
- * @argv: array of arguments
- * Return: 0 on success, 1 on failure
+ * @argc: argument counter
+ * @argv: argument vector
+ * Return: 1 if ERROR such as symbols that are not numbers,
+ * 0 if nothing is passed
  */
 int main(int argc, char *argv[])
 {
-int i, j, sum = 0;
-for (i = 1; i < argc; i++)
+int c, d;
+int n = 0;
+if (argc < 2)
 {
-for (j = 0; argv[i][j] != '\0'; j++)
+printf("0\n");
+return (0);
+}
+for (c = 1; c < argc; c++)
 {
-if (argv[i][j] < '0' || argv[i][j] > '9')
+for (d = 0; argv[c][d] != '\0'; d++)
+{
+if (argv[c][d] < '0' || argv[c][d] > '9')
 {
 printf("Error\n");
-return (1)
+return (1);
 }
 }
-sum = atoi(argv[i]);
+n += atoi(argv[c]);
 }
-printf("%d\n", sum);
+printf("%d\n", n);
 return (0);
 }
