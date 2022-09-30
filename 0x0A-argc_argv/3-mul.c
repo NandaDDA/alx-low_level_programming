@@ -1,3 +1,4 @@
+#include <ctype.h>
 #include <stdio.h>
 #include <stdlib.h>
 /**
@@ -5,19 +6,19 @@
  * of two numbers
  * @argc: number of arguments
  * @argv: array of arguments
- * Return: returns 0
+ * Return: returns 0 if it works and 1 if there is an ERROR
  */
 int main(int argc, char *argv[])
 {
-int i, j, diff;
-if (argc != 2)
+int i, j, mul ;
+if (argc <= 2)
 {
 printf("Error\n");
 return (1);
 }
 i = atoi(argv[1]);
-j = atoi(argv[2]);
-diff = i * j;
+j = atoi(argv[2])
+mul = i * j;
 printf("%d\n", mul);
 return (0);
 }
