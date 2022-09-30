@@ -2,11 +2,11 @@
 #include <stdio.h>
 /**
  * main - prints program name
- * @argc: number of arguments
- * @argv: array of arguments
+ * @argc: argument count
+ * @argv: argument vector
  * Return: 0
  */
-int main(int __attribute argc, char *argv[])
+int main(int argc, char *argv[])
 {
 (void)argc;
 printf("%s\n", argv[0]);
