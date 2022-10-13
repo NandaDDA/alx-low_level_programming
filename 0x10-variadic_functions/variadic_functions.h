@@ -17,9 +17,9 @@ void print_all(const char * const format, ...);
  * @identifier: The conversion specifier
  * @f: The function pointer
  */
-typedef struct printer{
-char *symbol;
-void (*print)(va_list arg);
-} printer_t;
-
+typedef struct format_types
+{
+char *identifier;
+void (*f)(char *separator, va_list args);
+} f_dt;
 #endif
